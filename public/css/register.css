@@ -1,0 +1,52 @@
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 2px solid blue;
+    height: max-content;
+    width: 350px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.3em;
+}
+
+.errore_p {
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.errore_p.hidden{
+    display: none;
+} 
+
+.errore {
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.errore.hidden{
+    display: none;
+}
+
+div.buttons {
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+section {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 2px solid blue;
+    height: min-content;
+    width: 350px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.3em;
+}
+
+.error{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+div.buttons {
+    display: flex;
+    justify-content: space-between;
+}
